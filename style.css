@@ -1,0 +1,221 @@
+@import url('https://fonts.googleapis.com/css2?family=Outfit:wght@100;200;300;400;500;600;700;800;900&display=swap');
+
+:root{
+    --fonte-principal: 'Outfit', sans-serif;
+    --cor-princpal: #FFCB00;
+}
+
+*, *::after, *::before {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: var(--fonte-principal);
+}
+
+main {
+    width: 100%;
+    display: flex;
+    flex-direction: row-reverse;
+}
+
+.conteiner1 {
+    width: 50%;
+    padding: 5%;
+
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: #F5FCFF;
+}
+
+.conteiner1-img {
+    width: 100%;
+    padding: 5% 0 ;
+    display: flex;
+    justify-content: flex-end;
+    align-items: center;
+}
+
+.conteiner1 > img {
+    width: 100%;
+}
+
+.conteiner2 {
+    width: 50%;
+    padding: 5%;
+    display: flex;
+    justify-content: flex-start;
+    align-items: center;
+    background-color: #FAFBFF;
+}
+
+.conteiner2 > form {
+    width: 350px;
+    height: 490px;
+    display: flex;
+    flex-direction: column;
+}
+
+.conteiner2 > form > img {
+    width: 56px;
+    height: 56px;
+    margin: 13.5px auto;
+}
+
+.conteiner2 > form > h2 {
+    font-size: 24px;
+    line-height: 30px;
+    letter-spacing: 0em;
+    text-align: center;
+}
+
+.conteiner2 > form > p {
+    font-size: 12px;
+    font-weight: 500;
+    line-height: 15px;
+    letter-spacing: 0em;
+    text-align: center;
+    margin: 10px auto 16px auto;
+}
+
+.conteiner2 > form > label {
+    
+    font-size: 12px;
+    font-weight: 500;
+    line-height: 15px;
+    letter-spacing: 0em;
+    text-align: left;
+    padding: 0 24px;
+    margin: 16px 0px 10px 0px;
+}
+
+.inputwrite {
+    width: 302px;
+    height: 46px;
+    border-radius: 5px;
+    border: 1px solid rgba(0, 0, 0, 0.26);
+    margin: 0 auto;
+    padding: 10px;
+}
+
+.conteinerflex {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+
+.conteinerflex > a {
+    text-decoration: none;
+    color: #413B89;
+    font-size: 12px;
+    font-weight: 500;
+    line-height: 15px;
+    letter-spacing: 0em;
+    text-align: center;
+    margin: 10px 24px 5px 0px;
+    
+}
+
+.conteinercheckbox { 
+    display: flex;
+    align-items: center;
+    gap: 5px;
+}
+
+.conteinercheckbox > input {
+    width: 15px;
+    height: 15px;
+    border-radius: 2px;
+    border: 1px solid #d9cffb96;
+    margin: 10px 0px 5px 24px;
+}
+
+.conteinercheckbox > label {
+    font-size: 12px;
+    font-weight: 500;
+    line-height: 15px;
+    letter-spacing: 0em;
+    text-align: left;
+    margin: 10px 0px 5px 0px;
+}
+
+form > button {
+    font-size: 16px;
+    font-weight: 700;
+    line-height: 20px;
+    letter-spacing: 0.01em;
+    text-align: center;
+    width: 302px;
+    height: 46px;
+    padding: 13px, 0px, 13px, 0px;
+    border-radius: 100px;
+    margin: 10px auto;
+    background-color: #FFCB00;
+    border: none;
+    color: #FFFFFF;
+    cursor: pointer;
+}
+
+p > a {
+    text-decoration: none;
+    color: #FFCB00;
+    font-weight: 500;
+}
+
+footer {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    Width: 100%;
+    Height: 100px;
+    Border: 0.5px, 0px, 0px, 0px;
+    background-color: #FAFBFF;
+    text-align: center;
+}
+
+@media (max-width: 850px) {
+ 
+    main {
+        width: 100%;
+        display: flex;
+        flex-direction: column;
+    }
+
+    .conteiner2 {
+        width: 100%;
+        padding: 5% 0 ;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        background-color: #FAFBFF;
+    }
+
+    .conteiner1 {
+        width: 100%;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        background-color: #F5FCFF;
+    }
+
+    .conteiner1 > img {
+        width: 100%;
+    }
+
+    .conteiner1-img {
+        width: 100%;
+        padding: 5% 0 ;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+    }
+    
+    .conteiner1-img > img {
+        width: 100%;
+        max-width: 300px;
+        padding: 0 ;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+    }
+}
