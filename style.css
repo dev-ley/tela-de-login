@@ -171,6 +171,8 @@ footer {
     Border: 0.5px, 0px, 0px, 0px;
     background-color: #FAFBFF;
     text-align: center;
+    font-size: 18px;
+
 }
 
 @media (max-width: 850px) {
@@ -217,5 +219,21 @@ footer {
         display: flex;
         justify-content: center;
         align-items: center;
+    }
+
+    footer {
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        Width: 100%;
+        Height: 100px;
+        background-color: #FAFBFF;
+    
+    }
+    footer > p {
+        width: 172px;
+        text-align: center;
+        font-size: 10px;
+
     }
 }
