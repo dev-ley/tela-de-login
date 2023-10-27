@@ -4,7 +4,7 @@ Este repositório contém um exemplo de uma tela de login simples, desenvolvida 
 
 ## Demonstração
 
-Para visualizar a tela de login em ação, você pode acessar a demonstração online [aqui](https://tela-de-login-teal.vercel.app){target="_blank"}
+Para visualizar a tela de login em ação, você pode acessar a demonstração online [aqui](https://tela-de-login-teal.vercel.app){target="_blank"}.
 ## Recursos
 
 - HTML semântico e CSS bem estruturado.
